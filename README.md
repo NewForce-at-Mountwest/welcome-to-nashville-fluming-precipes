@@ -110,3 +110,15 @@ Once the user has created the itinerary, you would use a PUT request to update a
 1. Add an affordance to finalize an itinerary, and start a new one.
 1. Add ability to view one or all of the itineraries
 
+<!--READ ME -->
+1.For this application to work, first you need to download https://github.com/NewForce-at-Mountwest/welcome-to-nashville-fluming-precipes.git or copy the URL and go to your GitBash and run `Git Clone "Url here"`
+2. Running this URL will make a new directory that has all of the information of the application inside it. From there, you will want to CD into the 
+new directory that was created.
+3. Once in the new directory, you will iniate the Code . function to open the directory and it should populate VSC.
+4. VSC should prompt and load with all of the files in the directory, you can then hit the `Go Live` button in the lower right hand side of VSC.
+5. You should now be viewing the webpage application in your browser of choice. We suggest using Chrome for best results. You will be welcomed to Nashville! And have a list of options to help you plan out your stay here!
+6. First, you will see a park search feature, simply type in a feature you may want, like Dog Park for example, and our search function will locate all
+the parks in Nashville that have dog parks! Perfect for you and your pooch!
+7. Second, you will see our breweries search feature, which is great for adding some spice to your stay. Easily search with any input and you will be provided a list of the great breweries in our area. This feature brings up breweries by name.
+8. From there, make your stay in Nashville an extra special memory with our third function. Looking to see your favorite artist? Just type their name in our search bar to find out when they are coming to Nashville! 
+9. Now, that you've searched and found the places you want to check out while you're in town, use our save function to help build an itinerary for your stay!
