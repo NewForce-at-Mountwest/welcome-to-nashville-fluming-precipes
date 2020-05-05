@@ -1,0 +1,33 @@
+body {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+    padding: 2em;
+}
+
+header {
+    text-align: center;
+    color: black;
+    font-size: 4em;
+    font-family: 'Lucida Sans';
+    font-style: inherit;
+    font-feature-settings: unset;
+    font-style: italic;
+}
+
+.searchContainer {
+    margin: 1em;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 2em;
+}
+
+#buttonClick {
+    margin-bottom: 1em;
+    
+}
+
+#brewerySearch {
+        margin-bottom: 1em;
+}
