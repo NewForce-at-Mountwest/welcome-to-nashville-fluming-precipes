@@ -23,6 +23,11 @@ header {
     font-size: 2em;
 }
 
-.Parks {
-    margin: 1em;
+#buttonClick {
+    margin-bottom: 1em;
+    
+}
+
+#brewerySearch {
+        margin-bottom: 1em;
 }
