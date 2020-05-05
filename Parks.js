@@ -1,6 +1,5 @@
 function parkNames(parkInput) {
-    fetch(`
-    https://data.nashville.gov/resource/xbru-cfzi.json?${parkInput}=Yes`, 
+    fetch(`https://data.nashville.gov/resource/xbru-cfzi.json?${parkInput}=Yes`, 
   )
     .then((response) => response.json())
     .then((parksInfo) => {
@@ -23,22 +22,40 @@ function parkNames(parkInput) {
 
 
 
-parkNames("community_center")
-parkNames("dog_park")
-parkNames("hiking_trails")
-parkNames("restrooms_available")
+// parkNames("community_center")
+// parkNames("dog_park")
+// parkNames("hiking_trails")
+// parkNames("restrooms_available")
 
-{/* <section class="searchContainer">Search for stuff to do today</section><br>
-    <input placeholder="Search Parks" type="text" class="Parks" id = "parkName">
-    <button id = "buttonClick">search</button> */}
+//// Some starter code
+// const container = document.querySelector("#addressList")
 
-const searchContainer = document.querySelector("#buttonClick")
+// document.querySelector("#saveEntry").addEventListener("click", event => {
+//     /*
+//         Collect the user put by selecting the input fields, one
+//         at a time, and accessing the `value` property
+//     */
+//     const personName = document.querySelector("#fullName").value
+//     const personAddress = document.querySelector("#address").value
+
+//     // Once you have collected all the values, update the DOM
+//     // with some HTML
+//     container.innerHTML += `
+//         <section>
+//             <h1>${personName}</h1>
+//             <div>${personAddress}</div>
+//         </section>
+//     `
+
+// })
+
+const searchContainer = document.querySelector(".parksResults")
 
 document.querySelector("#buttonClick").addEventListener("click", event => {
-    const Parks = document.querySelector("#buttonClick").value
+    const Parks = document.querySelector("#parkName").value
     console.log("You clicked on the park button")
-
-    
+    parkNames(Parks)
+    console.log(Parks)
     
 
    
